@@ -1,0 +1,118 @@
+{
+  "schema_version": 1,
+  "entry": "x-article-pro",
+  "display_name": "X文章-pro",
+  "dependencies": [
+    {
+      "name": "aihot",
+      "directory": "aihot",
+      "repository": "KKKKhazix/khazix-skills",
+      "repository_path": "aihot",
+      "revision": "322346ded8129436b3f64707789a73e732ae24d9",
+      "local_changes": [
+        "agents/openai.yaml: explicit invocation only for the pro workflow"
+      ],
+      "files": {
+        ".gitignore": "ca588da7f3bbd11984023e8bbabf24f795ef4c36d2015eca71401d7d84f28458",
+        "agents/openai.yaml": "b88fe2a3fb2498afae46871eea5984a302f7c3d9ccc5411d10ab4012ca93d99e",
+        "install.sh": "c17b69c801b00fdcd60f23e7b9441c7c584fab704a9773f8f9e0b55ed5b3178b",
+        "LICENSE": "0fa36ff9f01aaa76bce32e5ebe7aa131efb315d1505822e7c11010855f218658",
+        "manifest.sha256": "13ac5b1ae0e7737fee39f120776089df2472aaedcede6c5939bee09bb1540514",
+        "README.md": "f195ff3e5daaa8be2ce707938ccb5f22fee50d7eb149bcddc5f273f4170fd3fd",
+        "SKILL.md": "1fe3b86de1309617713c4b205b6dbaef0fe2cf28cb61cfb9f4c9b4accae521a1"
+      }
+    },
+    {
+      "name": "cover-editorial-collage",
+      "directory": "cover-editorial-collage",
+      "repository": "imartinstudio/cover-prompt-skills",
+      "repository_path": "plugins/cover-editorial-collage/skills/cover-editorial-collage",
+      "revision": "4f5bb6d93bbba18bd9f85cdea83a38a2a4bf16cb",
+      "local_changes": [
+        "LICENSE: copied unchanged from repository root at the pinned revision",
+        "agents/openai.yaml: explicit invocation only for the pro workflow"
+      ],
+      "files": {
+        "agents/openai.yaml": "a26bd08798650002672102f73bc0b5392d70f85d37aa11989fd30be07641f599",
+        "LICENSE": "1126322e2cc8d165adc4c792eeb195717de2bcc7b39be1ce77959d78e87ef685",
+        "SKILL.md": "8acdcf87199654a90e7c9196b221e567f87827e0bf9085dbc902aa020f9dfbf1"
+      }
+    }
+  ],
+  "retired_dependencies": [
+    {
+      "name": "human-writing",
+      "directory": "human-writing",
+      "repository": "KKKKhazix/human-writing",
+      "repository_path": "human-writing",
+      "revision": "4fda173f3fef7fb808f3eba991eeb2528ea4b189",
+      "local_changes": [
+        "agents/openai.yaml: explicit invocation only for the pro workflow"
+      ],
+      "files": {
+        "agents/openai.yaml": "4fcc672ea784802c640b9a1c08eff6422b0e0a764dade2e6c9d216930d5a2c60",
+        "dist/human-writing-lite.md": "52ba7c2fe1591d742a780e2d6ca2d6aa51dc430d88e2946fc4308470fa0bf884",
+        "LICENSE": "32ca81a9ae10dda7d18963c9eae733477073906b15ee498d02033c8966dbdcaa",
+        "references/fiction.md": "6efea0c16f28b7ae2d3531a7e2413577e2f6e3c1945912b087c28a0da6d0ad83",
+        "references/formats.md": "dd63704550574cd562b55f24307815e9172a63320dcfcc6006b3eab0ccc406bb",
+        "references/forum-prose.md": "20c22ad9c5c5c3f43ebae6bb7d258cfc42916413a82c2f95a0de9239541641dd",
+        "references/reality.md": "02004e1fd4dba40d8d50260982ecead81ce3788c7269922b8311514fe8edd0e6",
+        "references/revision.md": "2e7d8f74ace9d90e4805b6061b8015c91e6088166e5d224be185aba5a94e6592",
+        "scripts/check_prose.py": "13110461036c25477963e19ce35c4a34df2a2d24a7132c909394370803822eea",
+        "SKILL.md": "70a6e8c92ce74ac157e2ed11d022579aa67027610c47435a187296456008bcf3",
+        "VERSION": "1575e1af4a95f12f70b4ee6a6adce8160953d93ea17dc2611b90883ccc3ad3b8"
+      }
+    },
+    {
+      "name": "humanizer-zh",
+      "directory": "humanizer-zh",
+      "repository": "op7418/Humanizer-zh",
+      "repository_path": ".",
+      "revision": "f4518a8eab97b8bfebc66a89d34320a89bef6930",
+      "local_changes": [
+        "agents/openai.yaml: explicit invocation only for the pro workflow"
+      ],
+      "files": {
+        ".gitignore": "60e2fa4bf2647667b82c5351d453847ae233821ff6af15846b19f40a0c1a45d0",
+        "agents/openai.yaml": "2f1475f091a63574619b07609ffdaeedb7c195aed069b7cb779bacaa739a42af",
+        "CHANGELOG.md": "254ac282ea3a224237d7778d1704165f5dd51db29839de6431569435561fd0fe",
+        "LICENSE": "aa00e74769e1b9d8e7fa7094dbfcca9b129a0ded6dce1cf4da050b99146d2fa7",
+        "README.md": "c4f42c5f590b2845608c3913754e0339db0783481efb6d5ec90144fb721bd1d4",
+        "SKILL.md": "95627fd4437d886f98032ccc62d79136e6310f1fc04e354bb86431795ff206df",
+        "tests/check_structure.py": "82ba1f91aab7a70abf039e79009fb1b77c036aa892925e5e3df5c2550d20230a",
+        "tests/fixtures/cases.json": "6a62586ee93dd9695976cd45271036f2a92be4f74e1b3b9b6c21a411c8497c0e",
+        "tests/fixtures/structure.md": "d2d0c2740d28c44b7aac88e81aed8d50dc6ad90cc08f93a5a00c6ada1d6368e2",
+        "tests/README.md": "ece3c1f808c4ef2ad8ac7ccb0977138cbc6f842455c725703b5bf780ae3cc36c"
+      }
+    },
+    {
+      "name": "dbs-content",
+      "directory": "dbs-content",
+      "pin_kind": "installed-snapshot",
+      "snapshot_at": "2026-10-18T21:34:45+08:00",
+      "repository": "dontbesilent2025/dbskill",
+      "repository_path": "skills/dbs-content",
+      "revision": null,
+      "local_changes": [],
+      "files": {
+        "agents/openai.yaml": "093582a86d581dec5ac7e5c0829d342fdb4a5d7d01f73f7a2552e3a87643acdb",
+        "SKILL.md": "14162dc99178abfe5d15817f7d42d909cb9b3d89fa4143f73e55224a6b1ec051"
+      }
+    },
+    {
+      "name": "dbs-content-value",
+      "directory": "dbs-content-value",
+      "pin_kind": "installed-snapshot",
+      "snapshot_at": "2026-10-18T21:34:45+08:00",
+      "repository": "dontbesilent2025/dbskill",
+      "repository_path": "skills/dbs-content-value",
+      "revision": null,
+      "local_changes": [],
+      "files": {
+        "agents/openai.yaml": "9eae17bf9920b1a7c369920e6ee78f3b3bb2797ff04b1e7cb0f86902cf87a9c5",
+        "references/diagnostic-model.md": "5643382d92d1d7d0d23ebaf7098cba3bc6939afdbb251d16362016d2140d0d9f",
+        "SKILL.md": "a0865a1c18df60444e475fd32732d9ccb1a78a1c2e6313a6672eaf33890edcb5"
+      }
+    }
+  ]
+}

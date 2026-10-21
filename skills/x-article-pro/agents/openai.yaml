@@ -1,0 +1,6 @@
+interface:
+  display_name: "X文章-pro"
+  short_description: "保留 AIHOT 主要事实、独立表述、不加大段分析，补充进展单列，封面插图流程不变"
+  default_prompt: "用 $x-article-pro 把指定 AIHOT 新闻的主要事实独立表述成简报，不照抄、不加大段分析，相关新闻与最新进展核实后单列；封面继续只用 cover-editorial-collage，真实插图和独立复制流程不变，完成 v4 审校与 --current 校验。"
+policy:
+  allow_implicit_invocation: true
